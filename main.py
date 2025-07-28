@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Gemini API setup
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyDrP45CJUOupgyjTQ-J6hzR4YTaT2iwBdg")  # Use environment variable or fallback
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyCnyj-xkNFHfSEyQxjzOXtnbLzacyOk6dA")  # Use environment variable or fallback
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={GEMINI_API_KEY}"
 
 # WhatsApp webhook route
